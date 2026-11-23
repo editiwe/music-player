@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Музыкальный плеер</string>
+
+    <string name="library">Моя музыка</string>
+    <string name="my_tracks">Мои треки</string>
+    <string name="favorites">Избранное</string>
+    <string name="track_details">Сейчас играет</string>
+    <string name="home">Главная</string>
+
+    <string name="library_subtitle">Ваша локальная коллекция</string>
+    <string name="play_all">Слушать всё</string>
+    <string name="tracks_count_zero">Треков пока нет</string>
+    <string name="tracks_count">%1$d трек(ов)</string>
+    <string name="favorites_count_zero">В избранном пока пусто</string>
+    <string name="favorites_count">%1$d в избранном</string>
+
+    <string name="unknown_artist">Неизвестный исполнитель</string>
+    <string name="no_track">Трек не выбран</string>
+    <string name="empty_tracks_title">Здесь пока тихо</string>
+    <string name="empty_tracks">Добавьте mp3 или wav-файл — и плеер зазвучит.</string>
+    <string name="empty_favorites_title">Пока нет избранного</string>
+    <string name="empty_favorites">Нажмите сердечко у трека, чтобы сохранить его здесь.</string>
+    <string name="add_first_track">Добавить трек</string>
+
+    <string name="add_audio">Добавить аудио</string>
+    <string name="play">Воспроизвести</string>
+    <string name="pause">Пауза</string>
+    <string name="stop">Стоп</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+    <string name="like">Нравится</string>
+    <string name="dislike">Убрать лайк</string>
+    <string name="add_like">Поставить лайк</string>
+    <string name="remove_like">Убрать лайк</string>
+    <string name="back">Назад</string>
+    <string name="track_not_found">Трек не найден</string>
+    <string name="notification_idle">Плеер готов к работе</string>
+    <string name="track_added">Трек добавлен в коллекцию</string>
+    <string name="file_not_supported">Не удалось добавить файл</string>
+</resources>

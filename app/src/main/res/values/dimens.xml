@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Единые отступы экранов и карточек -->
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="header_padding">20dp</dimen>
+    <dimen name="section_spacing">16dp</dimen>
+    <dimen name="item_spacing">8dp</dimen>
+    <dimen name="empty_state_offset">48dp</dimen>
+    <dimen name="button_top_spacing">20dp</dimen>
+
+    <!-- Радиусы: пропорциональны размеру элемента -->
+    <dimen name="pill_radius">24dp</dimen>
+    <dimen name="header_radius">24dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="cover_large_radius">28dp</dimen>
+    <dimen name="cover_mini_radius">14dp</dimen>
+    <dimen name="cover_thumb_radius">12dp</dimen>
+
+    <!-- Размеры обложек -->
+    <dimen name="cover_large">240dp</dimen>
+    <dimen name="cover_large_padding">28dp</dimen>
+    <dimen name="cover_mini">44dp</dimen>
+    <dimen name="cover_mini_padding">5dp</dimen>
+    <dimen name="cover_thumb">52dp</dimen>
+    <dimen name="cover_thumb_padding">4dp</dimen>
+    <dimen name="empty_art">72dp</dimen>
+
+    <!-- Размеры элементов управления -->
+    <dimen name="control_small">40dp</dimen>
+    <dimen name="control_item">44dp</dimen>
+    <dimen name="control">52dp</dimen>
+    <dimen name="control_large">64dp</dimen>
+    <dimen name="control_spacing">12dp</dimen>
+    <dimen name="time_label_width">48dp</dimen>
+    <dimen name="mini_player_height">72dp</dimen>
+</resources>
