@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: Музыкальный плеер
+description: Учебный Android-приложение на Kotlin: Room, MediaPlayer, Navigation Component
+show_downloads: false
