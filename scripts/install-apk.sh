@@ -4,7 +4,9 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ADB="${ADB:-$HOME/Android/Sdk/platform-tools/adb}"
-APK="$ROOT/app/build/outputs/apk/debug/app-debug.apk"
+APK_DIR="$ROOT/app/build/release"
+APK="$APK_DIR/MusicPlayer.apk"
+[[ -f "$APK" ]] || APK="$ROOT/app/build/outputs/apk/debug/app-debug.apk"
 
 if ! command -v "$ADB" >/dev/null 2>&1 && [[ ! -x "$ADB" ]]; then
   echo "adb not found: $ADB" >&2
@@ -14,6 +16,8 @@ fi
 if [[ ! -f "$APK" ]]; then
   echo "APK not found, building it first..."
   (cd "$ROOT" && ./gradlew assembleDebug)
+  APK="$APK_DIR/MusicPlayer.apk"
+  [[ -f "$APK" ]] || APK="$ROOT/app/build/outputs/apk/debug/app-debug.apk"
 fi
 
 DEVICES="$("$ADB" devices | awk 'NR > 1 && $2 == "device" {print $1}')"
@@ -39,4 +43,4 @@ for device in $DEVICES; do
   "$ADB" -s "$device" install -r "$APK"
 done
 
-echo "Done. Launch 'Музыкальный плеер' on the device."
+echo "Done. Launch 'MusicPlayer' on the device."

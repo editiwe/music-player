@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Музыкальный плеер</string>
+    <string name="app_name">MusicPlayer</string>
 
     <string name="library">Моя музыка</string>
     <string name="my_tracks">Мои треки</string>

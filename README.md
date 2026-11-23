@@ -1,4 +1,4 @@
-# Учебное Android-приложение «Музыкальный плеер»
+# MusicPlayer — учебное Android-приложение
 
 ## Что реализовано
 
@@ -41,7 +41,7 @@ cd /home/editwe/Work/MusicPlayer
 JAVA_HOME=/opt/android-studio/jbr ./gradlew assembleDebug
 ```
 
-APK: `app/build/outputs/apk/debug/app-debug.apk`.
+APK: `app/build/release/MusicPlayer.apk` (такое же имя файл имеет в релизе GitHub, поэтому при скачивании браузер сохранит `MusicPlayer.apk`). Иконка — простая нота в адаптивном значке (`ic_launcher_foreground.xml`).
 
 > `gradle.properties` содержит `android.disallowKotlinSourceSets=false` — это необходимо, чтобы KSP (Room) работал со встроенным Kotlin в AGP 9.
 
